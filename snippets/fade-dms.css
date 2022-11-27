@@ -1,0 +1,19 @@
+.privateChannels-oVe7HL::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(var(--background-secondary), rgba(255, 255, 255, 0.001));
+    pointer-events: none
+}
+
+.privateChannels-oVe7HL::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(rgba(255, 255, 255, 0.001), var(--background-secondary));
+    pointer-events: none
+}

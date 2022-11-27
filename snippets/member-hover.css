@@ -1,0 +1,8 @@
+.member-2gU6Ar {
+    transition: all 0.5s;
+}
+
+.member-2gU6Ar:hover {
+    transition: all 0.2s;
+    transform: translatex(-3px);
+}
