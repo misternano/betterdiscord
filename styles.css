@@ -8,12 +8,8 @@ html {
 }
 
 a {
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 3px;
-    color: #ED4245;
-    font-size: 10rem;
-    font-weight: 800;
+    text-decoration: none;
+    font-size: 2rem;
 }
 
 .center {
@@ -57,4 +53,17 @@ a {
 
 .import gray {
     color: #676e7b;
+}
+
+.sm {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sm {
+        display: block;
+    }
+    .lg {
+        display: none;
+    }
 }
