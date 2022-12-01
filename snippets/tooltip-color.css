@@ -1,9 +1,9 @@
 .theme-dark .tooltipPrimary-3qLMbS,
 .theme-light .tooltipPrimary-3qLMbS {
-    background-color: var(--tooltip-color);
+    background-color: var(--tooltip-color, var(--brand-experiment));
 }
 
 .theme-dark .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb,
 .theme-light .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
-    border-top-color: var(--tooltip-color);
+    border-top-color: var(--tooltip-color, var(--brand-experiment));
 }

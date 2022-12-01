@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #171717;
+}
+
+a {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    color: #ED4245;
+    font-size: 10rem;
+    font-weight: 800;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.import {
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: monospace;
+    background-color: #222;
+    color: #ccc;
+    border-radius: 0.25rem;
+    outline: #444 solid 2px;
+    text-align: center;
+}
+
+.import span {
+    color: #ED4245;
+}
+
+.import purple  {
+    color: #9b8cda;
+}
+
+.import blue {
+    color: #6488bd;
+}
+
+.import yellow {
+    color: #d9bf73;
+}
+
+.import green {
+    color: #98c379;
+}
+
+.import gray {
+    color: #676e7b;
+}
