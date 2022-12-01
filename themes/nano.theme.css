@@ -1,0 +1,13 @@
+/**
+ * @name the nano theme.
+ * @version 1.0
+ * @description nano's really awesome cool theme.
+ * @source https://github.com/misternano/bd-snippets/
+ * @authorId 272535850200596480
+ * @author Nano
+*/
+
+* {
+    --font-primary: "Comic Sans MS", sans-sarif;
+    --font-display: var(--font-primary) !important;
+}
