@@ -1,0 +1,9 @@
+.theme-dark .tooltipPrimary-3qLMbS,
+.theme-light .tooltipPrimary-3qLMbS {
+    background-color: #5865f2;
+}
+
+.theme-dark .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb,
+.theme-light .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
+    border-top-color: #5865f2;
+}
