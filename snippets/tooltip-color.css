@@ -7,7 +7,3 @@
 .theme-light .tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
     border-top-color: var(--tooltip-color, var(--brand-experiment));
 }
-
-* {
-    font-family: "Comic Sans MS";
-}
