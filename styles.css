@@ -32,7 +32,7 @@ a {
 }
 
 .import span {
-    color: #ED4245;
+    color: #fff;
 }
 
 .import purple  {
@@ -59,7 +59,11 @@ a {
     display: none;
 }
 
-@media only screen and (max-width: 1200px) {
+.lg {
+    display: block;
+}
+
+@media only screen and (max-width: 800px) {
     .sm {
         display: block;
     }
