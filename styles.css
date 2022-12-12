@@ -33,6 +33,10 @@ a {
 
 .import span {
     color: #fff;
+    background-color: #333;
+    border-radius: 0.35rem;
+    margin-inline: 0.5rem;
+    padding-inline: 0.15rem;
 }
 
 .import purple  {
