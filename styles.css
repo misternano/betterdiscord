@@ -20,7 +20,8 @@ a {
 }
 
 .import {
-    width: fit-content;
+    gap: 3rem;
+    width: 90%;
     margin: 0 auto;
     padding: 1rem;
     font-family: monospace;
@@ -32,6 +33,10 @@ a {
 }
 
 .import span {
+    display: flex;
+}
+
+code {
     color: #fff;
     background-color: #333;
     border-radius: 0.35rem;
