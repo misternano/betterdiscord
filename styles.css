@@ -32,10 +32,6 @@ a {
     text-align: center;
 }
 
-.import span {
-    display: flex;
-}
-
 code {
     color: #fff;
     background-color: #333;
