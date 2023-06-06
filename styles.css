@@ -1,4 +1,5 @@
 * {
+    font-family: monospace;
     margin: 0;
     padding: 0;
 }
@@ -12,6 +13,12 @@ a {
     font-size: 2rem;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .center {
     position: absolute;
     top: 50%;
@@ -20,16 +27,19 @@ a {
 }
 
 .import {
-    gap: 3rem;
-    width: 90%;
     margin: 0 auto;
     padding: 1rem;
-    font-family: monospace;
     background-color: #222;
     color: #ccc;
     border-radius: 0.25rem;
     outline: #444 solid 2px;
     text-align: center;
+}
+
+.else {
+    font-size: 2rem;
+    text-align: center;
+    color: #ccc;
 }
 
 code {
